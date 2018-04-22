@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ươm Mầm Xanh</title>
+	<!-- Local bootstrap CSS & JS -->
+	<link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="images/logo.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!-- 
+		********header********
+	* -->
+		<header class="header" id="above">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 logo">
+						<img src="images/logo.jpg" alt="">
+					</div><!-- logo -->
+					<div class="col-md-6 search">
+						<form action="" method="POST" class="form-inline " role="form">					
+							<div class="form-group">
+								<!-- <label class="sr-only" for="">label</label> -->
+								<input type="email" class="form-control tim-kiem" id="" placeholder="Nhập tên hoặc mã sản phẩm cần tìm">
+							</div>
+							<button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Tìm kiếm</button>
+							<a href="#" class="gio-hang"><img src="images/giohang.png" alt="gio hang" width="50px"><span class="badge">0</span></a>
+						</form>
+					</div><!-- search -->
+					<div class="login text-right">
+						<a class="btn btn-success" data-toggle="modal" href='#modal-id'>Đăng nhập</a>
+						<div class="modal fade" id="modal-id">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">Modal title</h4>
+									</div>
+									<div class="modal-body">
+										
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
+									</div>
+								</div>
+							</div>
+						</div><!-- Đăng nhập -->
+						<a class="btn btn-success" data-toggle="modal" href='#modal-id'>Đăng ký</a>
+						<div class="modal fade" id="modal-id">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">Modal title</h4>
+									</div>
+									<div class="modal-body">
+										
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
+									</div>
+								</div>
+							</div>
+						</div><!--Đăng ký-->
+					</div>
+				</div>
+			</div>
+		</header>
+	<!-- 
+		**********end header******
+	 -->
+	 <!-- ***********above******* -->
+	<div class="above">
+		<div class="container-fulid text-right">
+			<a href="#above"><img src="images/above.jpg" alt=""></a>
+		</div>
+	</div>
+	 <!-- ***********end above******* -->
+	 <!-- 
+	 	********menu**************
+	  -->
+	<div class="navbar  my-navbar">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Trang chủ</a></li>
+				<li>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Đồ dùng học tập<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Bút viết</a></li>
+						<li><a href="#">Sổ tay</a></li>
+					</ul>
+				</li><!-- Đồ dùng học tập -->
+				<li>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Phụ kiện<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Bút viết</a></li>
+						<li><a href="#">Sổ tay</a></li>
+					</ul>
+				</li><!-- Phụ kiện -->	
+				<li>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Quà tặng sinh nhật<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Bút viết</a></li>
+						<li><a href="#">Sổ tay</a></li>
+					</ul>
+				</li><!-- Phụ kiện -->	
+				<li>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Đồ trang trí<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Bút viết</a></li>
+						<li><a href="#">Sổ tay</a></li>
+					</ul>
+				</li><!-- Phụ kiện -->	
+				<li><a href="">Liên hệ</a></li>				
+			</ul>
+		</div>
+	</div>
+	 <!-- 
+	 	********end menu**************
+	  -->
+	<!-- 
+		***********banner************
+	 -->
+	 <div class="banner">
+	 	<div class="">
+	 		<div class="row">
+	 			<div id="slider" class="carousel slide" data-ride="carousel">
+	 				<ol class="carousel-indicators">
+	 					<li data-target="#slider" data-slide-to="0" class=""></li>
+	 					<li data-target="#slider" data-slide-to="1" class=""></li>
+	 					<li data-target="#slider" data-slide-to="2" class="active"></li>
+	 				</ol>
+	 				<div class="carousel-inner">
+	 					<div class="item">
+	 						<img src="images/banner1.jpg">
+	 						<div class="container">
+	 							<div class="carousel-caption">
+	 								<h1>Example headline.</h1>
+	 								<p</p>
+	 								<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+	 							</div>
+	 						</div>
+	 					</div><!-- item -->
+	 					<div class="item">
+	 						<img src="images/banner2.jpg">
+	 						<div class="container">
+	 							<div class="carousel-caption">
+	 								<h1>Another example headline.</h1>
+	 								<p>Cras justo odio, dapibus ac facilisis in, </p>
+	 								<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+	 							</div>
+	 						</div>
+	 					</div><!-- item -->
+	 					<div class="item active">
+	 						<img src="images/banner3.jpg">
+	 						<div class="container">
+	 							<div class="carousel-caption">
+	 								<h1>One more for good measure.</h1>
+	 								<p>Cras justo odio, dapibus ac facilisis in</p>
+	 								<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+	 							</div>
+	 						</div>
+	 					</div><!-- item -->
+	 				</div>
+	 				<a class="left carousel-control" href="#slider" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	 				<a class="right carousel-control" href="#slider" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </div>
+	 <!-- 
+		***********end banner************
+	 -->
+	 <!-- 
+	 	***************body************
+	  -->
+	  <main class="main">
+	  		<div class="container">
+	  			<div class="row">
+	  				<div class="top-main">
+	  						<div class="col-md-3 text-center">
+	  							<img src="images/main/dich-vu-gui-tien.png" alt="">
+	  							<p>Dịch vụ gửi tiền</p>
+	  						</div>
+	  						<div class="col-md-3 text-center">
+	  							<img src="images/main/giao-hang.png" alt="">
+	  							<p>Giao hàng</p>
+	  						</div>
+	  						<div class="col-md-3 text-center">
+	  							<img src="images/main/sale.png" alt="">
+	  							<p>Khuyến mãi</p>
+	  						</div>
+	  						<div class="col-md-3 text-center">
+	  							<img src="images/main/ma-giam-gia.png" alt="">
+	  							<p>Mã giảm giá </p>
+	  						</div>
+	  					</div><!-- top-main -->
+	  				<div class="col-md-3 left">
+	  					<div class="panel panel-success ">
+	  						<div class="panel-heading">
+	  							<h3 class="panel-title">Danh mục sản phẩm</h3>
+	  						</div>
+	  						<div class="panel-body">
+	  							<ul class="list-group">
+	  								<li class="list-group-item">Đồ dùng học tập</li>
+	  								<li class="list-group-item">Phụ kiện</li>
+	  								<li class="list-group-item">Item 3</li>
+	  								<li class="list-group-item">Item 3</li>
+	  							</ul>
+	  						</div>
+	  					</div><!-- Danh mục sản phẩm -->
+	  					<div class="panel panel-success sp-yeu-thich">
+	  						<div class="panel-heading">
+	  							<h3 class="panel-title">Sản phẩm yêu thích nhất</h3>
+	  						</div>
+	  						<div class="panel-body">
+	  							<img src="images/pro1.jpg" alt="" class="img-reponsive">
+	  						</div>
+	  					</div><!-- Sản phẩm yêu thích nhất -->
+						<div class="panel panel-success sp-yeu-thich">
+	  						<div class="panel-heading">
+	  							<h3 class="panel-title">Sản phẩm giá rẻ nhất</h3>
+	  						</div>
+	  						<div class="panel-body">
+	  							<img src="images/pro1.jpg" alt="" class="img-reponsive">
+	  						</div>
+	  					</div><!-- Sản phẩm giá rẻ nhất-->
+
+
+	  				</div><!-- left -->
+	  				<div class="col-md-9 right">
+	  					
+						<div class="products">
+							<div class="text-center">
+								<h3>Sản phẩm yêu thích</h3>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro1.png" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro2.png" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro3.png" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro4.jpg" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro5.jpg" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro6.jpg" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro7.png" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro8.jpg" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="clearfix text-center">
+								<a href="#" class="btn btn-success">Xem them</a>
+							</div>
+						</div>
+						<!-- products -->
+						<div class="products">
+							<div class="text-center">
+								<h3>Sản phẩm khuyến mãi</h3>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro1.png" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+											<del>100.000đ</del>
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro2.png" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+											<del>100.000đ</del>
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro3.png" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+											<del>100.000đ</del>
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro4.jpg" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+											<del>100.000đ</del>
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro5.jpg" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+											<del>100.000đ</del>
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro6.jpg" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+											<del>100.000đ</del>
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro7.png" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+											<del>100.000đ</del>
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product">
+								<div class="thumbnail">
+									<div class="item">
+										<img src="images/products/pro8.jpg" alt="">
+										<div class="search"></div>
+									</div>
+									<div class="caption">
+										<h3>Túi đeo chéo da Totoro</h3>
+										<p>
+											90.000đ
+											<del>100.000đ</del>
+										</p>
+										<!--  -->
+									</div>
+								</div>
+							</div><!-- product -->
+							<div class="clearfix text-center">
+								<a href="#" class="btn btn-success">Xem them</a>
+							</div>
+						</div>
+						<!-- products -->
+	  				</div><!-- right -->
+	  			</div>
+	  		</div>
+	  </main>
+	   <!-- 
+	 	*************** end body************
+	  -->
+		<!--
+		 ************footer********** 
+		 *-->
+		<footer class="footer">
+			<div class="top-footer ">
+				<div class="container">
+					<div class=" col-md-6 text-left">
+						<p>Hãy liên hệ với Ươm Mầm Xanh để có những sản phẩm chất lượng</p>
+					</div>
+					<div class=" col-md-6 text-right">
+						<form action="" method="POST" class="form-inline " role="form">		<div class="form-group">
+								<input type="email" class="form-control tim-kiem" id="sp" placeholder="Nhập tên hoặc mã sản phẩm cần tìm" width="300px">
+							</div>
+							<button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Tìm kiếm</button>
+						</form>
+					</div>
+				</div>
+			</div><!-- top-footer -->
+			<div class="main-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 inf">
+							<ul class="list-group">
+								<li class="list-group-item"><h3>Ươm Mầm Xanh</h3></li>
+								<li class="list-group-item">Số hotline: 019900100</li>
+								<li class="list-group-item">Địa chỉ: shop Hà Đông Hà Nội</li>
+								<li class="list-group-item"><img src="images/map.png" alt=""></li>
+							</ul>
+						</div><!-- inf -->
+						<div class="col-md-4 inf">
+							<ul class="list-group">
+								<li class="list-group-item"><h3>Giới thiệu về Ươm Mầm Xanh</h3></li>
+								<li class="list-group-item">Tin tức và sự kiện</li>
+								<li class="list-group-item">Các sản phẩm chính</li>
+								<li class="list-group-item">Quà tặng đi kèm</li>
+								<li class="list-group-item">Liên hệ đặt hàng</li>
+								<li class="list-group-item">
+									<!-- Add font awesome icons -->
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-twitter"></a>
+									<a href="#" class="fa fa-google"></a>
+									<a href="#" class="fa fa-linkedin"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4 form-email">
+							<form action="" method="POST" role="form">
+								<legend class="solgan">Đăng kí nhận tin tức từ Ươm Mầm Xanh</legend>
+							
+								<div class="form-group">						
+									<input type="text" class="form-control" id="userName" placeholder="Nhập Họ tên">
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control" id="" placeholder="Nhập Email ">					
+								</div>
+								<div class="text-right">
+									<button type="submit" class="btn btn-success">Đăng ký</button>
+								</div>
+							</form>
+						</div><!-- form-email -->
+					</div>
+				</div>
+			</div><!-- main-footer -->
+		</footer>	 
+		<!-- 
+			************end footer********** 
+		*-->
+</body>
+</html>
